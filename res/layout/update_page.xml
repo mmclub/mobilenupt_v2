@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/update_page"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="46.0dip"
+        layout="@layout/update_topbar" />
+
+    <com.mobilenupt.ui.SlidingLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/update_bg" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:id="@+id/update"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="欢迎使用掌上南邮Nupter"
+                android:textSize="20sp" />
+            
+            <TextView
+                android:id="@+id/update2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/update"
+                android:text="@string/_share_hint"
+                android:textSize="15sp" />
+            
+            <ImageButton
+                android:id="@+id/imgbutton_sharetoqqzone"
+                android:layout_width="140dp"
+                android:layout_height="46dp"
+                android:layout_below="@+id/update2"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/sharetorenren"
+                android:text="分享" />
+        </RelativeLayout>
+    </com.mobilenupt.ui.SlidingLinearLayout>
+
+</LinearLayout>

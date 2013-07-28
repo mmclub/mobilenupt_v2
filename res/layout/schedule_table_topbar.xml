@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table_topbar"
+    style="@style/topbar_bg" >
+
+    <Button
+        android:id="@+id/table_menuBtn"
+        style="@style/topbar_left_btn"
+        android:layout_marginLeft="20px"
+        android:background="@drawable/menu_click" />
+
+    <TextView
+        android:id="@+id/topbar_title"
+        style="@style/topbar_text"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15px"
+        android:text="@string/Schedule"
+        android:textSize="20sp" />
+
+</RelativeLayout>

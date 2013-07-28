@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <!-- android:background="@color/body_background" -->
+    
+    <TextView 
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor="#000000"/>
+    
+    <TextView 
+        android:id="@+id/bookname"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textStyle="bold"
+		android:textColor="#000000"/>
+    
+    <TextView 
+        android:id="@+id/sysnumber"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor="#000000"/>
+	
+    <TextView 
+        android:id="@+id/press"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor="#000000"/>
+    
+    <TextView 
+        android:id="@+id/lending"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor="#000000"/>
+    
+</LinearLayout>

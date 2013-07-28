@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <!--  去除顶上标签
+    <LinearLayout
+    	android:layout_width="match_parent"
+   	 	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    >
+    
+    <TextView 
+        android:id="@+id/activity"
+        android:text="活动"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"      
+        android:textStyle="bold"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="8dp"
+        android:background="#87cefa"/>
+    <TextView 
+        android:id="@+id/lecture"
+        android:text="讲座"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_marginRight="6dp"
+        android:textStyle="bold"
+        android:background="#ff0000"/> 
+    </LinearLayout> -->
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:cacheColorHint="#00000000"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        >
+     </ListView>
+             
+</LinearLayout>
+<!--  <ListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:cacheColorHint="#00000000"
+        android:paddingBottom="75dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        >
+     </ListView>
+        
+    <ImageButton
+        android:id="@+id/activityimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/activity"
+        android:background="#00ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+    	
+    <ImageButton
+        android:id="@+id/lectureimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lecture"
+        android:background="#00ffffff" 
+        android:layout_toLeftOf="@id/activityimg"
+        android:layout_alignParentBottom="true"            
+/> -->

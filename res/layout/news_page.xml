@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/news_page"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="46.0dip"
+        layout="@layout/news_topbar" />
+
+    <com.mobilenupt.ui.SlidingLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="37dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/secretary_background3_top" />
+
+            <ListView
+                android:id="@+id/listview1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignLeft="@id/top"
+                android:layout_alignRight="@id/top"
+                android:layout_below="@id/top"
+                android:background="@drawable/secretary_background3"
+                android:cacheColorHint="#00000000"
+                android:fadingEdge="none" >
+            </ListView>
+
+            <LinearLayout
+                android:id="@+id/lodinglayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_alignBottom="@id/listview1"
+                android:layout_alignLeft="@id/listview1"
+                android:layout_alignRight="@id/listview1"
+                android:background="#D1EEEE"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Loading..."
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/top"
+                android:layout_toRightOf="@id/listview1"
+                android:background="@drawable/news_newsbtn"
+                android:text=" " />
+
+            <Button
+                android:id="@+id/button44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button11"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/listview1"
+                android:background="@drawable/news_noticebtn"
+                android:text=" " />
+        </RelativeLayout>
+    </com.mobilenupt.ui.SlidingLinearLayout>
+
+</LinearLayout>

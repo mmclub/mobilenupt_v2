@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp"
+        android:scrollbars="none" >
+
+        <TableLayout
+            android:id="@+id/fritalbe"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingBottom="20dp"
+            android:paddingLeft="15dp" >
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="上午    "
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="第1节" />
+
+                <TextView>
+                </TextView>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/frione"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="少年当自强！！" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView>
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="第2节" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+
+                <View />
+
+                <View
+                    android:layout_height="2dip"
+                    android:background="#FFFAFA" />
+
+                <View
+                    android:layout_height="2dip"
+                    android:background="#FFFAFA" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView>
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="第3节" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView>
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/frithird"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="没课，给我们提点宝贵的意见吧( *^_^* )" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView>
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="第4节" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+
+                <View />
+
+                <View
+                    android:layout_height="2dip"
+                    android:background="#FFFAFA" />
+
+                <View
+                    android:layout_height="2dip"
+                    android:background="#FFFAFA" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView>
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="第5节" />
+
+                <TextView
+                    android:id="@+id/frifive"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="废话不多说，吃饭" />
+            </TableRow>
+
+            <View
+                android:layout_height="4dip"
+                android:background="#FFFAFA" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="下午    "
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="第6节" />
+
+                <TextView>
+                </TextView>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/frisix"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="NULL" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView>
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="第7节" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow>
+
+                <View />
+
+                <View
+                    android:layout_height="2dip"
+                    android:background="#FFFAFA" />
+
+                <View
+                    android:layout_height="2dip"
+                    android:background="#FFFAFA" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView>
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="第8节" />
+
+                <TextView
+                    android:id="@+id/frieight"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="没课！！" />
+            </TableRow>
+
+            <TableRow>
+
+                <View />
+
+                <View
+                    android:layout_height="2dip"
+                    android:background="#FFFAFA" />
+
+                <View
+                    android:layout_height="2dip"
+                    android:background="#FFFAFA" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView>
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="第9节" />
+
+                <TextView
+                    android:id="@+id/frinine"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="干点自己的事情去~~" />
+            </TableRow>
+
+            <View
+                android:layout_height="4dip"
+                android:background="#FFFAFA" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="晚上    "
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="第10节" />
+
+                <TextView>
+                </TextView>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView>
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/friten"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="明天周六,O,Yeal" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView>
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="第12节" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:gravity="center" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>
