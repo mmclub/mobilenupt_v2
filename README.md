@@ -1,6 +1,6 @@
 # 掌上南邮2.0
 
-掌上南邮是南京大学移动互联网俱乐部的一款面向南邮师生的校园应用
+掌上南邮是南京邮电大学移动互联网俱乐部的一款面向南邮师生的校园应用
 
 ![](http://mobilenupt.sinaapp.com/html/Tpl/Public/images/walle.png)
 
